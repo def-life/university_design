@@ -1,0 +1,97 @@
+@media screen and (max-width: 800px) {
+     
+
+    .nav img {
+        width: 100px;
+    }
+
+    .header {
+        background-size: cover;
+    }
+
+    .text-box h1{
+        font-size: 2.5rem;
+    }
+
+    .text-box p{
+        font-size: 1.4rem;
+    }
+
+    .text-box a {
+        font-size: 1.4rem;
+        padding: 1rem 1.3rem;
+    }
+
+    .nav-links li {
+        display: block;
+    }
+
+    .nav-links {
+        width: 60vw;
+        position: absolute;
+        top: 0;
+        right: -62vw;
+        height: 100vh;
+        z-index: 1;
+        background-color: #f44336;
+        text-align: left;
+        display: none;
+
+    }
+
+    .nav .fa {
+        display: block;
+        font-size: 20px;
+        color: white;
+        margin: 5px 20px 10px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        margin-left: 40px;
+    }
+
+   i.fas.fa-bars.fa.menu{
+       position: absolute;
+       top: 2px;
+       right: 3px;
+       padding: 2px;
+   }
+
+   .nav-links ul li a::after {
+       margin: 0;
+   }
+
+   /* courses responsive css */
+
+   .row {
+       flex-direction: column;
+   }
+
+   .course-column {
+       margin-bottom: 2rem;
+   }
+
+   .campus-column {
+       width: 100%;
+       margin: auto;
+   }
+
+   /* no responsive css was needed for facilities  */
+   
+   /* testimonial css */
+
+   .testimonial-column i {
+       font-size: 1.5rem;
+   }
+   .testimonial-column {
+       margin-bottom: 2rem;
+   }
+
+   /* call to action */
+
+   .ctn h1 {
+       font-size: 2rem;
+   }
+}
+
